@@ -36,5 +36,4 @@ function snillrik_calendar_add_scripts(){
     wp_register_script('snillrik-calendar-main-script', SNILLRIK_CALENDAR_PLUGIN_URL . 'js/main.js', array('jquery'));
 }
 add_action('wp_enqueue_scripts', 'snillrik_calendar_add_scripts');
-
 ?>
