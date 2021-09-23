@@ -16,8 +16,8 @@ DEFINE("SNILLRIK_CALENDAR_POST_TYPE_NAME", "snillrik_calendar");
 DEFINE("SNILLRIK_CALENDAR_TIMEDATE_NAME", "snillrik_calendar_time_date");
 
 
-require_once SNILLRIK_CALENDAR_DIR . 'calendar-type.php';
-require_once SNILLRIK_CALENDAR_DIR . 'settings.php';
+require_once SNILLRIK_CALENDAR_DIR . 'includes/calendar-type.php';
+require_once SNILLRIK_CALENDAR_DIR . 'includes/settings.php';
 require_once SNILLRIK_CALENDAR_DIR . 'includes/shortcodes.php';
 
 new SNCL_calendar();
