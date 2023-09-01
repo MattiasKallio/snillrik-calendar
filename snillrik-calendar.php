@@ -8,6 +8,7 @@ Version: 0.1
 Author: Mattias Kallio
 Author URI: http://www.snillrik.se
 License: GPL2
+Tested up to: 6.3.1
  */
 
 DEFINE("SNILLRIK_CALENDAR_PLUGIN_URL", plugin_dir_url(__FILE__));
